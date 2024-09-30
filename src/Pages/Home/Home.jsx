@@ -42,6 +42,9 @@ function Home() {
                 <ChatCard/>
             </div>
         </div>
+        <div className="add">
+            <span className="material-icons">add</span>
+        </div>
     </div>
   )
 }
