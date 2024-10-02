@@ -8,7 +8,7 @@ function App({path}) {
     <div className="app-container">
       {path === '/' && <Connect/>}
       {path === '/home' && <Home/>}
-      {path === '/chat' && <Chat/>}
+      {path === '/chat/:id' && <Chat />}
     </div>
   )
 }
